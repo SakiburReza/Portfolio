@@ -1,0 +1,166 @@
+{
+  "data": {
+    "fullName": "Sakibur Reza",
+    "logo" : "logo.png",
+    "email" : "md.sakiburrezajony@gmail.com",
+    "titleArray": [
+      "Software Engineer",
+      "Network Administrator",
+      "Distributed Systems Enthusiast",
+      "NOC Engineer",
+      "BUET Graduate"
+    ],
+    "subTitle": "Engineering scalable solutions from code to infrastructure. Bridging software development and network operations.",
+    "resumeLink":"https://docs.google.com/gview?embedded=true&url=https://docs.google.com/document/d/17us2QqDv7GDJrKGdWxnFKySyj-hnFeMsF8AyaMYn03U/export?format=pdf"
+,
+    "aboutDescription": 
+    [
+      "Hi, I’m Sakibur Reza, a software engineer with a Bachelor’s degree in Computer Science and Engineering (CSE) from Bangladesh University of Engineering, and Technology (BUET). I bring over two years of professional experience as a software engineer, where I worked on designing, developing, and maintaining web-based applications with a strong focus on code quality, performance, and scalability.",
+
+"Currently, I work at Bangladesh Submarine Cables PLC (BSCPLC) as an Assistant Manager, where I am involved in operating and monitoring critical network infrastructure to ensure uninterrupted connectivity to the global internet ecosystem for the people of Bangladesh. This role has deepened my understanding of computer networks, system reliability, and large-scale infrastructure operations.",
+
+"With hands-on experience in both software development and network operations, I am deeply interested in understanding systems end to end—from the physical and network layers up to applications and services. I enjoy solving real-world problems where stability, efficiency, and thoughtful system design matter.",
+
+"Outside of work, I enjoy traveling, sports, and contributing to humanitarian causes. I am always eager to learn, grow, and take on challenges that allow me to build dependable systems and make a meaningful impact in the technology space."
+    ],
+    "aboutImage" : "pp.jpeg",
+    "skills": 
+    [
+      {
+        "title" : "Programming Languages",
+        "skillname": [
+          {"name" : "C", "image": "react"}, 
+          {"name" : "C++", "image": "html"}, 
+          {"name" : "Java", "image": "css"}, 
+          {"name" : "Python", "image": "javascript"}]
+      },
+      {
+        "title" : "Frontend",
+        "skillname": [
+          {"name" : "React", "image": "react"}, 
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "JavaScript", "image": "javascript"}, 
+          {"name" : "BootStrap", "image": "bs"}, 
+          {"name" : "Tailwind", "image": "tailwind"}, 
+          {"name" : "Next Js", "image": "next"},
+          {"name" : "Vue", "image": "vue"}]
+      },
+      {
+        "title" : "Backend",
+        "skillname": [
+          {"name" : "Node Js", "image": "node"},
+          {"name" : "Express Js", "image": "express"}, 
+          {"name" : "NPM", "image": "npm"},
+          {"name" : "Oracle", "image": "oracle"},
+          {"name" : "MySQL", "image": "mysql"},
+          {"name" : "Spring Boot", "image": "springboot"}]
+          
+      },
+      {
+        "title" : "Others",
+        "skillname": [
+          {"name" : "Machine Learning", "image": "ml"},
+          {"name" : "Git", "image": "git"}, 
+          {"name" : "GitHub", "image": "github"}, 
+          {"name" : "LaTex", "image": "latex"}, 
+          {"name" : "Linux", "image": "linux"}, 
+          {"name" : "Networking", "image": "networking"}]
+      }
+    ],
+    "projects" : [
+      {
+        "projectName" : "Aptitudo",
+        "projectType" : "TALENT HUNT PLATFORM",
+        "projectImage" : [
+        "Aptitudo.PNG"
+      ],
+        "techStack" : [
+          {"name" : "Next", "image": "next"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "JavaScript", "image": "javascript"},
+          {"name" : "BootStrap", "image": "bs"}
+        ],
+        "description" : "Aptitudo is a talent hunt platform for different jobs across the world. The platform helps companines seek qualified employees by setting tests of different categories. This web application also enables job seekers to get desired job by attending test exam at home.",
+        "githubLink" : "https://github.com/SakiburReza/Aptitudo",
+         "liveLink" : "https://aptitudo.ca/"
+      },
+      {
+        "projectName" : "Zeuxis (GEN AI)",
+        "projectType" : "AI EMPOWERED MEDIA CREATION PLATFORM",
+        "projectImage" : ["Zeuxis.PNG"],
+        "techStack" : [
+          {"name" : "Java", "image": "java"}, 
+          {"name" : "MySQL", "image": "mysql"}
+        ],
+        "description" : "Zeuxis is an web application powered by AI, offering users to create image and video what they want. Users can create image/video by a prompt or they are allowed to create image/video from image. The platform further offers creating video from a template video. However, Zeiux is a fun web application for making media with the help of AI. ",
+        "githubLink" : "https://github.com/SakiburReza/Gen-AI",
+        "liveLink" : ""
+      },
+      {
+        "projectName" : "Health Care Management System",
+        "projectType" : "WEB APPLICATION",
+        "projectImage" : [
+        "Healthcare.png"
+      ],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "BootStrap", "image": "bs"},
+          {"name" : "Vercel", "image": "vercel"} 
+        ],
+        "description" : "Created a prototype health-care management system that aims to make seeking appointment to doctor easier. Patients are able to view the proficiency, rating & reviews, chamber address of a doctor and seek appointment through the system. Patients are allowed to search and seek diagnostic center also with their preferences. Doctors are able to schedule appointment, generate digital prescription etc. Diagnostic centers can schedule the requests and offer order from home service through the system.",
+        "githubLink" : "https://github.com/SakiburReza/Health-Care-Frontend",
+        "githubLink2" : "https://github.com/SakiburReza/Health-Care-Backend",
+        "liveLink" : "https://www.youtube.com/watch?v=nznc2fGz_D4"
+      },
+      {
+        "projectName" : "Cricbuzz (Cricket Match Management System)",
+        "projectType" : "DESKTOP APPLICATION",
+        "projectImage" : ["Cricbuzz.png"],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "Node Js", "image": "node"}, 
+          {"name" : "MongoDB", "image": "mdb"}
+        ],
+        "description" : "Developed a prototype of cricket match management system. This is one of my favourite project of my undergraduate life. I was curious how all the stuffs are managed of a cricket match in my childhood. This project shows us the backend activities of a cricket match done by admins. The database of the project was designed extensively following the relevant ER diagrams.",
+        "githubLink" : "https://github.com/SakiburReza/Cricbuzz-Cricket-Match-Management-System-",
+        "liveLink" : "https://thedigitalworkstation.netlify.app/"
+      },
+      {
+        "projectName" : "Messenger Lite",
+        "projectType" : "DESKTOP APPLICATION",
+        "projectImage" : [""],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "Node Js", "image": "node"}, 
+          {"name" : "MongoDB", "image": "mdb"}
+        ],
+        "description" : "Developed a chatting application using multi-threading feature of Java. Built using OOP principles & serverclient networking support of Java. The application supports one-to-one and group chatting with file",
+        "githubLink" : "https://github.com/SakiburReza/Messenger-Lite",
+         "liveLink" : ""
+      }
+    ],
+    "contactParagraph" : "I'm currently open to work and get involved in new projects, so get in touch if you'd like to Hire me or work together.", 
+    "socialLinks" : {
+      "github" : "https://github.com/SakiburReza",
+      "linkedin" : "https://www.linkedin.com/in/md-sakibur-reza-6b9777223/",
+      "instagram" : ""
+    },
+    "contact": {
+    "university": "Bangladesh University of Engineering & Technology",
+    "office": "Network Operation Center (NOC), Bangladesh Submarine Cables PLC",
+    "officewebsite": "https://www.bsccl.com/",
+    "officewebsite2": "https://www.bscplc.com/",
+    "personalMail": "md.sakibur.reza@gmail.com",
+    "officialMail": "am.noc@bscplc.com",
+    "currentAddress": "Bashundhara R/A, Dhaka, Bangladesh",
+    "permanentAddress": "Tangail, Bangladesh"
+  }
+  }
+}
