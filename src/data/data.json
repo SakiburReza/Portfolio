@@ -11,7 +11,8 @@
       "BUET Graduate"
     ],
     "subTitle": "Engineering scalable solutions from code to infrastructure. Bridging software development and network operations.",
-    "resumeLink":"https://docs.google.com/gview?embedded=true&url=https://docs.google.com/document/d/17us2QqDv7GDJrKGdWxnFKySyj-hnFeMsF8AyaMYn03U/export?format=pdf"
+    "resumeView":"https://docs.google.com/document/d/17us2QqDv7GDJrKGdWxnFKySyj-hnFeMsF8AyaMYn03U/preview",
+    "resumeDownload":"https://docs.google.com/document/d/17us2QqDv7GDJrKGdWxnFKySyj-hnFeMsF8AyaMYn03U/export?format=pdf"
 ,
     "aboutDescription": 
     [
@@ -73,7 +74,7 @@
         "projectName" : "Aptitudo",
         "projectType" : "TALENT HUNT PLATFORM",
         "projectImage" : [
-        "Aptitudo.PNG"
+        "Aptitudo0.PNG", "Aptitudo1.PNG", "Aptitudo2.PNG", "Aptitudo3.PNG"
       ],
         "techStack" : [
           {"name" : "Next", "image": "next"}, 
@@ -88,7 +89,7 @@
       {
         "projectName" : "Zeuxis (GEN AI)",
         "projectType" : "AI EMPOWERED MEDIA CREATION PLATFORM",
-        "projectImage" : ["Zeuxis.PNG"],
+        "projectImage" : ["Zeuxis.PNG","Zeuxis1.PNG","Zeuxis3.PNG","Zeuxis4.PNG"],
         "techStack" : [
           {"name" : "Java", "image": "java"}, 
           {"name" : "MySQL", "image": "mysql"}
@@ -97,11 +98,26 @@
         "githubLink" : "https://github.com/SakiburReza/Gen-AI",
         "liveLink" : ""
       },
+        {
+        "projectName" : "Cricbuzz (Cricket Match Management System)",
+        "projectType" : "DESKTOP APPLICATION",
+        "projectImage" : ["Cricbuzz.png","Cricbuzz2.png","Cricbuzz3.png","Cricbuzz4.png","Cricbuzz5.png"],
+        "techStack" : [
+          {"name" : "HTML", "image": "html"}, 
+          {"name" : "CSS", "image": "css"}, 
+          {"name" : "React", "image": "react"}, 
+          {"name" : "Node Js", "image": "node"}, 
+          {"name" : "MongoDB", "image": "mdb"}
+        ],
+        "description" : "Developed a prototype of cricket match management system. This is one of my favourite project of my undergraduate life. I was curious how all the stuffs are managed of a cricket match in my childhood. This project shows us the backend activities of a cricket match done by admins. The database of the project was designed extensively following the relevant ER diagrams.",
+        "githubLink" : "https://github.com/SakiburReza/Cricbuzz-Cricket-Match-Management-System-",
+        "liveLink" : "https://thedigitalworkstation.netlify.app/"
+      },
       {
         "projectName" : "Health Care Management System",
         "projectType" : "WEB APPLICATION",
         "projectImage" : [
-        "Healthcare.png"
+        "Healthcare.png", "Healthcare2.png", "Healthcare3.png"
       ],
         "techStack" : [
           {"name" : "HTML", "image": "html"}, 
@@ -116,24 +132,9 @@
         "liveLink" : "https://www.youtube.com/watch?v=nznc2fGz_D4"
       },
       {
-        "projectName" : "Cricbuzz (Cricket Match Management System)",
-        "projectType" : "DESKTOP APPLICATION",
-        "projectImage" : ["Cricbuzz.png"],
-        "techStack" : [
-          {"name" : "HTML", "image": "html"}, 
-          {"name" : "CSS", "image": "css"}, 
-          {"name" : "React", "image": "react"}, 
-          {"name" : "Node Js", "image": "node"}, 
-          {"name" : "MongoDB", "image": "mdb"}
-        ],
-        "description" : "Developed a prototype of cricket match management system. This is one of my favourite project of my undergraduate life. I was curious how all the stuffs are managed of a cricket match in my childhood. This project shows us the backend activities of a cricket match done by admins. The database of the project was designed extensively following the relevant ER diagrams.",
-        "githubLink" : "https://github.com/SakiburReza/Cricbuzz-Cricket-Match-Management-System-",
-        "liveLink" : "https://thedigitalworkstation.netlify.app/"
-      },
-      {
         "projectName" : "Messenger Lite",
         "projectType" : "DESKTOP APPLICATION",
-        "projectImage" : [""],
+        "projectImage" : ["Messenger.PNG"],
         "techStack" : [
           {"name" : "HTML", "image": "html"}, 
           {"name" : "CSS", "image": "css"}, 
@@ -150,7 +151,7 @@
     "socialLinks" : {
       "github" : "https://github.com/SakiburReza",
       "linkedin" : "https://www.linkedin.com/in/md-sakibur-reza-6b9777223/",
-      "instagram" : ""
+      "instagram" : "https://www.instagram.com/sakibur_reza/"
     },
     "contact": {
     "university": "Bangladesh University of Engineering & Technology",

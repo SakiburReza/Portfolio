@@ -1,28 +1,52 @@
-import React from 'react'
-
-import data from '../data/data.json'
+import data from "../data/data.json";
+import React, { useState, useEffect } from "react";
 
 const Footer = () => {
+  const { socialLinks } = data.data;
 
-    const { socialLinks } = data.data
+  return (
+    <footer className="footer-section px-2">
+      <div className="container footer-container">
 
-    return (
-        <div className="footer-section px-2">
-            <hr />
-            <div className="container mb-3">
-                <p className="text-center">
-                    &copy; {new Date().getFullYear()} - Built by <a style={{textDecoration: 'none'}} target='_blank' rel="noreferrer">Sakibur Reza</a> | All rights reserved.
-                </p>
-                <div class="footer-social">
-                    <ul class="social-icons">
-                        <li><a target='_blank' rel="noreferrer" href={socialLinks.linkedin}><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a target='_blank' rel="noreferrer" href={socialLinks.github}><i class="fab fa-github"></i></a></li>
-                        <li><a target='_blank' rel="noreferrer" href={socialLinks.instagram}><i class="fab fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+        <div className="footer-social">
+
+          <a
+            href={socialLinks.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="social-btn"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            href={socialLinks.github}
+            target="_blank"
+            rel="noreferrer"
+            className="social-btn"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+
+          <a
+            href={socialLinks.instagram}
+            target="_blank"
+            rel="noreferrer"
+            className="social-btn"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+
         </div>
-    )
-}
 
-export default Footer
+        <p className="footer-text">
+          © {new Date().getFullYear()} Built by
+          <span className="footer-name"> Sakibur Reza</span>
+        </p>
+
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

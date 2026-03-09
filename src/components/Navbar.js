@@ -7,7 +7,7 @@ function Navbar() {
 
     let location = useLocation();
 
-    const { fullName, logo, email, socialLinks } = data.data
+    const { fullName, logo } = data.data
 
     const imagepath = "/images/logo/"
 
@@ -88,33 +88,16 @@ function Navbar() {
             </NavHashLink>
 
             {/* CTA */}
-            <a className="btn nav-cta" href={`mailto:${email}`}>
+            {/* <a className="btn nav-cta" href={`mailto:${email}`}>
               Hire Me
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
     </nav>
   </div>
 
-  {/* Side Sticky Social Icons (just add rel + aria-labels) */}
-  <div id="contact-left">
-    <div id="contact-left-links">
-      <a target="_blank" rel="noreferrer" href={socialLinks.github} aria-label="GitHub">
-        <i className="fab fa-github" />
-      </a>
-      <a target="_blank" rel="noreferrer" href={socialLinks.linkedin} aria-label="LinkedIn">
-        <i className="fab fa-linkedin-in" />
-      </a>
-      <a target="_blank" rel="noreferrer" href={`mailto:${email}`} aria-label="Email">
-        <i className="fas fa-envelope" />
-      </a>
-      <a target="_blank" rel="noreferrer" href={socialLinks.instagram} aria-label="Instagram">
-        <i className="fab fa-instagram" />
-      </a>
-    </div>
-    <div id="contact-line" />
-  </div>
+ 
 </div>
 
     )

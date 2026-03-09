@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import data from "../data/data.json";
 
 const Hero = () => {
-  const { fullName, titleArray, subTitle, resumeLink } = data.data;
+  const { fullName, titleArray, subTitle, resumeView, resumeDownload } = data.data;
 
   return (
     <section id="home" className="hero-section px-2">
@@ -35,20 +35,24 @@ const Hero = () => {
             <div className="hero-actions">
               <a
                 className="btn btn-lg work-btn hero-primary"
-                href={resumeLink}
+                href={resumeView}
                 target="_blank"
                 rel="noreferrer"
               >
                 See Resume
               </a>
 
-              <a className="btn btn-lg hero-secondary" href="#contact">
-                Contact
+              <a
+                className="btn btn-lg hero-secondary"
+                href={resumeDownload}
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Resume
               </a>
             </div>
           </div>
-
-         
         </div>
       </div>
     </section>

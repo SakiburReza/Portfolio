@@ -1,5 +1,11 @@
 import React from "react";
 import data from "../data/data.json";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const Projects = () => {
   const { projects } = data.data;
@@ -40,17 +46,24 @@ const Projects = () => {
                 <div className="col-lg-5">
                   <div className="project-image-wrap">
                     {project.projectImage?.length > 0 ? (
-                      <img
-                        src={imgpath + project.projectImage[0]}
-                        alt={`${project.projectName} - Project Preview`}
-                        className="project-image"
-                        onError={(e) => {
-                          e.currentTarget.style.display = "none";
-                          e.currentTarget.parentElement.classList.add(
-                            "image-fallback",
-                          );
-                        }}
-                      />
+                      <Swiper
+                        modules={[Navigation, Pagination, Autoplay]}
+                        navigation
+                        pagination={{ clickable: true }}
+                        autoplay={{ delay: 3000 }}
+                        loop={true}
+                        className="project-carousel"
+                      >
+                        {project.projectImage.map((img, i) => (
+                          <SwiperSlide key={i}>
+                            <img
+                              src={imgpath + img}
+                              alt={`${project.projectName} screenshot ${i + 1}`}
+                              className="project-image"
+                            />
+                          </SwiperSlide>
+                        ))}
+                      </Swiper>
                     ) : null}
 
                     {/* Fallback overlay (always present, visible if image fails) */}

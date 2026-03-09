@@ -10,6 +10,21 @@
   src: url("/src/assets/fonts/Kollektif-Bold.ttf");
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.hero-section,
+.contact-sec {
+  overflow: hidden;
+}
+
 :root {
   --body-color: #A2A2A2;
   --heading-color: #D3D3D3;
@@ -277,6 +292,7 @@ section {
 
 .skill-div {
   margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;   /* IMPORTANT: title on top, cards below */
   gap: 2rem;
@@ -1371,7 +1387,7 @@ article .icon {
 .project-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain ;
   display: block;
 }
 
@@ -1547,5 +1563,79 @@ article .icon {
     max-width: 100%;
   }
 }
+.project-carousel {
+  width: 100%;
+  height: 100%;
+}
 
+.project-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
+
+.footer-section {
+  padding: 50px 0 25px 0;
+  background: var(--primary-color);
+  position: relative;
+  border-top: 1px solid transparent;
+  background-image:
+    linear-gradient(var(--primary-color), var(--primary-color)),
+    linear-gradient(90deg, #7c3aed, #06b6d4);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.65);
+  margin: 0;
+}
+
+.footer-name {
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.social-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.social-btn:hover {
+  transform: translateY(-4px);
+  background: var(--accent-color);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
