@@ -39,7 +39,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                See Resume
+                See CV
               </a>
 
               <a
@@ -49,7 +49,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Download Resume
+                Download CV
               </a>
             </div>
           </div>

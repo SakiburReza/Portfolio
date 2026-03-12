@@ -1,5 +1,5 @@
 import data from "../data/data.json";
-import React, { useState, useEffect } from "react";
+
 
 const Footer = () => {
   const { socialLinks } = data.data;

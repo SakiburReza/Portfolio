@@ -4,7 +4,6 @@ import data from "../data/data.json";
 
 function Skills() {
   const { skills } = data.data;
-  const iconpath = "/images/icons/";
 
   return (
     <section className="px-2" id="skills">

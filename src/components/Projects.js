@@ -15,14 +15,6 @@ const Projects = () => {
   const open = "/images/icons/open.png";
   const githubgrey = "/images/icons/github-grey.png";
 
-  const getInitials = (name = "") =>
-    name
-      .split(" ")
-      .filter(Boolean)
-      .slice(0, 2)
-      .map((w) => w[0].toUpperCase())
-      .join("");
-
   return (
     <section className="px-2" id="projects">
       <div className="container project-div">
